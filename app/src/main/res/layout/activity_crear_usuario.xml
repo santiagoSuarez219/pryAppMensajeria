@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearUsuario">
+
+    <TextView
+        android:id="@+id/txvCrearUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txvTituloCrearUsuario"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/edtxNombreUsuario"
+        app:layout_constraintStart_toStartOf="@+id/edtxNombreUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/txvCrearUsuario"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/edtxNombreUsuario"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edtxNombreUsuario"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#78909C"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/edtxPasswordUsuario"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtxPasswordUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/edtxPasswordUsuario"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edtxPasswordUsuario"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#78909C"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/rbGroup"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rbGroup"
+        app:layout_constraintTop_toBottomOf="@+id/edtxNombreUsuario" />
+
+    <TextView
+        android:id="@+id/txvRol"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/txvRol"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtxPasswordUsuario" />
+
+    <RadioGroup
+        android:id="@+id/rbGroup"
+        android:layout_width="240dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/btnCrear"
+        app:layout_constraintTop_toBottomOf="@+id/txvRol"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/rbAdministrador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/rbAdministrador"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rbRepartidor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbRepartidor"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:text="@string/btnCrear"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

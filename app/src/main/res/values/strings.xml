@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Mensajeria envio seguro</string>
+
+    <!--- LOGIN -->
+    <string name="txvTituloLogin">MENSAJERIA</string>
+    <string name="txvTituloInicioSesion">INICIO DE SESION</string>
+    <string name="edtxUsuarioLogin">Usuario</string>
+    <string name="edtxPasswordLogin">Password</string>
+    <string name="btnLogin">ENVIAR</string>
+
+    <!--- PERFIL ADMIN -->
+    <string name="txvTituloPerfilAdmin">PERFIL DE ADMINISTRADOR</string>
+    <string name="txvTituloUsuarioAdmin">ADMIN</string>
+    <string name="btnCrearUsuario">CREAR USUARIO</string>
+    <string name="btnCrearPedido">CREAR PEDIDO</string>
+    <string name="btnVerPedidos">VER PEDIDOS</string>
+    <string name="btnCerrarSesionAdmin">CERRAR SESION</string>
+
+    <!--- PERFIL USUARIO -->
+    <string name="txvTituloPerfilUsuario">PERFIL DE USUARIO</string>
+    <string name="txvTituloUsuarioUsuario">REPARTIDOR</string>
+    <string name="btnPedidos">PEDIDOS</string>
+    <string name="btnMisPedidos">MIS PEDIDOS</string>
+    <string name="btnPedidosCompletados">PEDIDOS COMPLETADOS</string>
+    <string name="btnCerrarSesionUsuario">CERRAR SESION</string>
+
+    <!--- CREAR PEDIDO -->
+    <string name="txvTituloCrearPedido">CREAR PEDIDO</string>
+    <string name="btnCrearPedidosPedidos">CREAR</string>
+    <string name="txvTituloRemitente">REMITENTE</string>
+    <string name="edtxNombreRemitente">Nombre Remitente</string>
+    <string name="edtxTelefonoRemitente">Telefono Remitente</string>
+    <string name="edtxDireccionRemitente">Direccion Remitente</string>
+    <string name="edtxFechaRegistro">Fecha Registro</string>
+    <string name="edtxHoraRegistro">Hora Registro</string>
+    <string name="edtxObservacionRegistro">Observacion Registro</string>
+    <string name="txvTituloDestinatario">DESTINATARIO</string>
+    <string name="edtxNombreDestinatario">Nombre Destinatario</string>
+    <string name="edtxTelefonoDestinatario">Telefono Destinatario</string>
+    <string name="edtxDireccionDestinatario">Direccion Destinatario</string>
+    <!---<string name="edtxFechaEntrega">Fecha Registro</string>
+    <string name="edtxHoraEntrega">Hora Registro</string>
+    <string name="edtxObservacionEntrega">Observacion Entrega</string>-->
+
+    <!--- CREAR USUARIO -->
+        <string name="txvTituloCrearUsuario">CREAR USUARIO</string>
+        <string name="edtxNombreUsuario">Usuario</string>
+        <string name="edtxPasswordUsuario">Password</string>
+        <string name="txvRol">Rol</string>
+        <string name="rbAdministrador">Administrador</string>
+        <string name="rbRepartidor">Repartidor</string>
+        <string name="btnCrear">CREAR</string>
+
+    <!--- MIS PEDIDOS -->
+    <string name="txvTituloMisPedidos">MIS PEDIDOS</string>
+    <string name="btnVerPedido">VER</string>
+
+    <!--- PEDIDOS -->
+    <string name="txvTituloPedidos">PEDIDOS</string>
+    <string name="btnAceptarPedidos">ACEPTAR</string>
+
+    <!--- PEDIDOS COMPLETADOS -->
+    <string name="txvTituloPedidosCompletados">PEDIDOS COMPLETADOS</string>
+    <string name="btnVerPedidosCompletados">VER PEDIDOS</string>
+
+
+
+
+
+    </resources>
