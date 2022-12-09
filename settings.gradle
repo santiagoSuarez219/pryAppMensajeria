@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "mensajeria"
+rootProject.name = "repartidor"
 include ':app'
